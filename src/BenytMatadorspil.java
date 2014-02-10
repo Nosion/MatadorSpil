@@ -5,7 +5,7 @@ public class BenytMatadorspil
     Matadorspil spil = new Matadorspil();
     spil.spillere.add(new Spiller("Søren",50000)); // opret spiller Søren
     spil.spillere.add(new Spiller("Gitte",50000)); // opret spiller Gitte
-
+    	////TESTTTTTT
     // løb gennem 20 runder (40 ture)
     for (spil.spillersTur=0; spil.spillersTur<40; spil.spillersTur++)
     {
