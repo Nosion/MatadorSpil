@@ -9,13 +9,13 @@ public class Start extends Felt
     this.gevinst = gevinst;
   }
 
-  public void passeret(Spiller sp)                 // tilsidesæt metode i Felt
+  public void passeret(Spiller sp) // tilsidesæt metode i Felt
   {
     sp.besked("Du passerer start og modtager "+gevinst);
-    sp.transaktion(gevinst);                      // kredit/debit af konto
+    sp.transaktion(gevinst); // kredit/debit af konto
   }
 
-  public void landet(Spiller sp)                   // tilsidesæt metode i Felt
+  public void landet(Spiller sp) // tilsidesæt metode i Felt
   {
     sp.besked("Du lander på start og modtager "+gevinst);
     sp.transaktion(gevinst);

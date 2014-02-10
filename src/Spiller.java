@@ -1,9 +1,9 @@
 /** Definition af en spiller */
 public class Spiller
 {
-  String navn;       // spillerens navn, f.eks. "Søren"
-  double konto;      // antal kroner på spillerens konto
-  int feltnr;        // hvad nummer felt spilleren står på. ?Start? er nummer 0
+  String navn; // spillerens navn, f.eks. "Søren"
+  double konto; // antal kroner på spillerens konto
+  int feltnr; // hvad nummer felt spilleren står på. ?Start? er nummer 0
 
   public Spiller(String navn, double konto)
   {

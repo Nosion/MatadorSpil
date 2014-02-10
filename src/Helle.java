@@ -5,13 +5,13 @@ public class Helle extends Felt
 
   public Helle (int gevinst)
   {
-    navn = "Helle";                 // navn er arvet fra Felt
+    navn = "Helle"; // navn er arvet fra Felt
     this.gevinst = gevinst;
   }
 
-  public void landet(Spiller sp)    // tilsidesæt metode i Felt
+  public void landet(Spiller sp) // tilsidesæt metode i Felt
   {
     sp.besked("Du lander på helle og får overført "+gevinst);
-    sp.transaktion(gevinst);        // opdater spillers konto
+    sp.transaktion(gevinst); // opdater spillers konto
   }
 }
